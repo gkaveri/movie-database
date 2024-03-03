@@ -1,0 +1,64 @@
+.movie-list-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 1200px) {
+  .movie-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+.section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.route-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+  margin: 0px;
+}
+@media screen and (max-width: 425px) {
+  .route-heading {
+    text-align: center;
+  }
+}
+.popular-container {
+  padding: 2px;
+}
+.loader-style {
+  position: absoulte;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  background-color: #2c2c2c;
+}
+.page-numbers {
+  font-family: 'sans-serif';
+  font-size: 15px;
+  color: #fff;
+}
+@media screen and (max-width: 425px) {
+  .page-numbers {
+    text-align: center;
+  }
+}
+.next-page {
+  border-style: none;
+  background-color: red;
+  color: #fff;
+  margin-left: 20px;
+}
+.loader-container {
+  height: 100vh;
+}

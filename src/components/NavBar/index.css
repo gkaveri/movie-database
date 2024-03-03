@@ -1,0 +1,43 @@
+.navbar-container {
+  background-color: #032541;
+}
+.logo-container {
+  background-color: linear-gradient(to right, #fcba03, #453a1c);
+  text-decoration: none;
+  border-radius: 8px;
+}
+.page-logo {
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 28px;
+  color: #032541;
+  letter-spacing: 1px;
+  line-height: 38px;
+  padding: 0 5px;
+}
+.nav-items-list {
+  list-style: none;
+}
+.nav-item {
+  margin-left: 25px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 34px;
+}
+.search-input {
+  outline: none;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 4px 12px 7px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: 'arial, sans-serif';
+  font-style: italic;
+  min-width: 250px;
+}
